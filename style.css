@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.page-action-cont {
+  height: 3rem;
+  background-color: lightgreen;
+}
+
+.cellprops-action-cont {
+  height: 3rem;
+  background-color: lightblue;
+}
+.formula-action-cont {
+  height: 3rem;
+  background-color: lightpink;
+}
+.sheet-action-cont {
+  height: 3rem;
+  background-color: lightsalmon;
+}
+.grid-cont {
+  height: calc(100vh - 3rem - 3rem - 3rem - 3rem);
+  background-color: lightgray;
+}
