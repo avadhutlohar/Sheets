@@ -154,3 +154,15 @@ body {
   align-items: center;
   justify-content: center;
 }
+.color-prop {
+  position: relative;
+}
+.color-prop > input{
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
